@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T10:13:33.987Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="C3qlowTFdwwJPFbIZcbb" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T10:13:52.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KrKw4A3lmK7vXrySnPsx" version="21.3.8" type="github">
   <diagram name="Page-1" id="ikJGw_t53JPDbnbYUZR4">
     <mxGraphModel dx="1745" dy="565" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -537,7 +537,7 @@
           <mxGeometry x="2450" y="1150" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-289" value="&lt;font color=&quot;#000000&quot;&gt;javaChannel().register(eventLoop().unwrappedSelector(), 0, this)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-210">
-          <mxGeometry x="2450" y="1200" width="360" height="30" as="geometry" />
+          <mxGeometry x="2550" y="1200" width="360" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-290" value="注册channel到selector" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1.005;exitY=0.533;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="eF85By5L5kz6MDUUwLtT-210" source="eF85By5L5kz6MDUUwLtT-286">
           <mxGeometry x="-0.1158" width="50" height="50" relative="1" as="geometry">
