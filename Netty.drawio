@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T06:59:41.042Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GUmdXp3ra4sjhKexCTS7" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T07:03:51.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IbXY7a37doUMaM79ahbV" version="21.3.8" type="github">
   <diagram name="Page-1" id="ikJGw_t53JPDbnbYUZR4">
-    <mxGraphModel dx="2653" dy="1631" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2985" dy="1835" grid="1" gridSize="10" guides="0" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eF85By5L5kz6MDUUwLtT-214" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="40" y="10" width="2030" height="1190" as="geometry" />
+          <mxGeometry x="120" y="20" width="2170" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-210" value="" style="group" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-214">
-          <mxGeometry width="2030" height="1190" as="geometry" />
+          <mxGeometry width="2170" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-207" value="" style="group" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-210">
           <mxGeometry width="1710" height="1190" as="geometry" />
@@ -420,13 +420,18 @@
             <mxPoint x="1720" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eF85By5L5kz6MDUUwLtT-212" value="&lt;font color=&quot;#000000&quot;&gt;register(channel)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-210">
-          <mxGeometry x="1840" y="450" width="120" height="40" as="geometry" />
+        <mxCell id="eF85By5L5kz6MDUUwLtT-212" value="&lt;font color=&quot;#000000&quot;&gt;MultithreadEventLoopGroup.register(Channel channel)&lt;br&gt;&amp;gt;&amp;gt; next().register(channel)&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-210">
+          <mxGeometry x="1740" y="460" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eF85By5L5kz6MDUUwLtT-213" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;" edge="1" parent="eF85By5L5kz6MDUUwLtT-214" source="eF85By5L5kz6MDUUwLtT-208">
+        <mxCell id="eF85By5L5kz6MDUUwLtT-213" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=0.486;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="eF85By5L5kz6MDUUwLtT-210" source="eF85By5L5kz6MDUUwLtT-208" target="eF85By5L5kz6MDUUwLtT-212">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1870" y="540" as="sourcePoint" />
             <mxPoint x="1900" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eF85By5L5kz6MDUUwLtT-215" value="从bossGroup拿一个线程处理channel的注册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-213">
+          <mxGeometry x="-0.2913" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
