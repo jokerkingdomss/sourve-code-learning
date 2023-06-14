@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T02:28:39.629Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="FGivT7a_ix7pTzcw4Fng" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T02:50:41.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LLRuycLj3Re8DfXyW7cO" version="21.3.8" type="github">
   <diagram name="Page-1" id="ikJGw_t53JPDbnbYUZR4">
-    <mxGraphModel dx="2336" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1889" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="eF85By5L5kz6MDUUwLtT-16" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-110" y="40" width="1166" height="540" as="geometry" />
+          <mxGeometry x="-110" y="40" width="1166" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="eF85By5L5kz6MDUUwLtT-13" value="" style="group" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-16">
+        <mxCell id="eF85By5L5kz6MDUUwLtT-13" value="" style="group;strokeWidth=2;" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-16">
           <mxGeometry width="1166" height="450" as="geometry" />
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-8" value="" style="group" vertex="1" connectable="0" parent="eF85By5L5kz6MDUUwLtT-13">
@@ -117,8 +117,17 @@
             <mxPoint x="610" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eF85By5L5kz6MDUUwLtT-17" value="&lt;font color=&quot;#000000&quot;&gt;channelFactory.newChannel()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-13">
-          <mxGeometry x="720" y="380" width="180" height="40" as="geometry" />
+        <mxCell id="eF85By5L5kz6MDUUwLtT-17" value="&lt;font color=&quot;#000000&quot;&gt;channel=channelFactory.newChannel()&lt;br&gt;&amp;gt;&amp;gt;constructor.newInstance()&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-13">
+          <mxGeometry x="720" y="380" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eF85By5L5kz6MDUUwLtT-25" value="调用NioServerSocketChannel的空构造方法" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=2;" edge="1" parent="eF85By5L5kz6MDUUwLtT-13" source="eF85By5L5kz6MDUUwLtT-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="490" as="sourcePoint" />
+            <mxPoint x="830" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="450" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="eF85By5L5kz6MDUUwLtT-14" value="&lt;font color=&quot;#000000&quot;&gt;initAndRegister()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-16">
           <mxGeometry x="467.5" y="480" width="114" height="30" as="geometry" />
@@ -134,12 +143,15 @@
             <mxPoint x="581.5" y="500" as="sourcePoint" />
             <mxPoint x="631.5" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="581" y="500" />
+              <mxPoint x="582" y="500" />
               <mxPoint x="650" y="500" />
               <mxPoint x="650" y="350" />
-              <mxPoint x="810" y="350" />
+              <mxPoint x="830" y="350" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eF85By5L5kz6MDUUwLtT-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eF85By5L5kz6MDUUwLtT-16">
+          <mxGeometry x="750" y="480" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
